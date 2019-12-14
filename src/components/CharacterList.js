@@ -26,7 +26,7 @@ export default function CharacterList() {
       <div>{character.map(char =>{
          return (
            <div>
-            <CharacterCard key={char.id} name={char.name} img={char.image}/>
+            <CharacterCard key={char.id} name={char.name} />
          </div>
          )
       })}</div>
