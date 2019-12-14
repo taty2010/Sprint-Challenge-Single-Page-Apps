@@ -27,7 +27,7 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ]  Explain benefit(s) using `client-side routing`?
 
-> Answer:
+> Answer: Client-side routing allows you to have control over your content without having it to constantly re-upload everything on the page, which makes it more effecient. 
 
 ## Project Set Up
 
