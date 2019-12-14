@@ -20,9 +20,9 @@ export default function CharacterList() {
 
   return (
     <section className="character-list">
-      <h2>{character.map(char =>{
-        return <CharacterCard name={char.name} />
-      })}</h2>
+      <div>{character.map(char =>{
+        return <CharacterCard key={char.id} name={char.name} />
+      })}</div>
     </section>
   );
 }
